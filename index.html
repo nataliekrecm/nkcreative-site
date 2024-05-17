@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NK Creative</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/cbf48acd1a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/nk creative.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark fa-lg" style="color: #000000;" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" style="color: black;" onclick="showMenu()"></i>
+        </nav>
+
+    <div class="text-box">
+        <h1>nk creative</h1>
+        <p>The place where creativity meets passion</p>
+        <a href="" class="book--button">Book now</a>
+    </div>
+
+
+    </section>
+
+    <section class="main-text">
+        <h1> What do we offer?</h1>
+        <p>Our services currently range from photography/videography to graphic design.</p>
+
+        <div class="row">
+            <div class="main-textcol">
+            <h3>Photography</h3>
+            <p1>Photography is a way of storytelling and preserving memories. I aim to create photos that feel as close to the raw moment as possible. My photo style is colorful, creative, and candid. Whether it is yourself, your brand, a life event, or your relationship that you are looking to have photographed, I am ready to capture it creatively and in an authentic fashion to you!</p1>
+            </div>
+            <div class="main-textcol">
+                <h3>Branding</h3>
+                <p1>Your logo and brand identity is one of the most important parts of your business. As the face of your company, it not only encapsulates your business’s personality, but also your goals, audience, and values. Good design is created with a meaningful foundation, intention in mind, and purpose in the details!</p1>
+                </div>
+
+        </div>
+
+    </section>
+
+    <section class="testimonials">
+        <h1>What our clients say</h1>
+        <p>See by yourself if we're worth it.</p>
+        <div class="div row">
+        <div class="testimonial-col">
+            <img src="images/Bibiana1.JPG">
+            <div>
+                <p>Okay, you're an actual magician, are you kidding? I love them all so much! Your ideas were so fun and they turned out amazing!!</p>
+                <h3>Bibiana D.</h3>
+               
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="images/Julia.jpg">
+            <div>
+                <p>How in the world am I supposed to choose only a few of those to print and hang in my flat? The photos are beautiful, I absolutely love them.</p>
+                <h3>Julia N.</h3>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <h1>Interested in booking? Let's chat!</h1>
+        <a href="" class="book--button">General Inquiry</a>
+
+    </section>
+
+    <section class="footer">
+        <a href="index.html"><img src="images/nk creative.png"></a>
+        <p> Made with <i class="fa-regular fa-heart" style="color: #000000;"></i> by Natalie Krecmerova</p>
+        <div class="icons">
+            <i class="fa-brands fa-instagram" style="color: #000000;"></i>
+            <i class="fa-brands fa-behance" style="color: #000000;"></i>
+        </div>
+    
+    </section>
+   
+<script>
+
+    var navlinks = document.getElementById("navlinks");
+
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+
+</script>
+    
+</body>
+</html>

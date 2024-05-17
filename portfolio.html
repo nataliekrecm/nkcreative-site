@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NK Creative</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/cbf48acd1a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/nk creative.png"></a>
+            <div class="nav-links" id="navlinks">
+                <i class="fa-solid fa-xmark fa-lg" style="color: #000000;" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" style="color: black;" onclick="showMenu()"></i>
+        </nav>
+        <h1>Portfolio</h1>
+    </section>
+
+    <section class="Portfolio">
+     <div class="container">
+        <div class="galerry">
+            <div class="column">
+                <div class="photo">
+                   <img src="images/Julia.jpg">
+                   <img src="images/Julia2.jpg">
+                   <img src="images/Bibiana1.JPG">
+                   <img src="images/Patricie1.JPG">
+                   <img src="images/Bibiana2.JPG">
+                   <img src="images/Magda1.JPEG">
+                 </div>
+            </div>
+        </div>
+    </div>
+
+    </section>
+
+   
+
+   
+   
+
+    <section class="footer">
+        <a href="index.html"><img src="images/nk creative.png"></a>
+        <p> Made with <i class="fa-regular fa-heart" style="color: #000000;"></i> by Natalie Krecmerova</p>
+        <div class="icons">
+            <i class="fa-brands fa-instagram" style="color: #000000;"></i>
+            <i class="fa-brands fa-behance" style="color: #000000;"></i>
+        </div>
+    
+    </section>
+   
+<script>
+
+    var navlinks = document.getElementById("navlinks");
+
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navlinks.style.right = "-200px";
+    }
+
+</script>
+    
+</body>
+</html>
